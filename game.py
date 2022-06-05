@@ -10,12 +10,7 @@ from towers.tblue import TBlue
 from towers.tgreen import TGreen
 import time
 import random
-from menu.menu import MainMenu,PlayPauseButton,Button
-
-path = [(83, 100), (83, 170), (83, 235), (159, 253), (240, 253), (344, 253),
-        (344, 153), (405, 153), (510, 153), (630, 153), (630, 253),(730, 253),
-        (840, 253), (840, 212), (840, 151), (840, 50), (-10000,50)]
-
+from menu.menu import MainMenu,PlayPauseButton
 pygame.font.init()
 pygame.init()
 pygame.display.set_caption('Carrot_Fantasy')
